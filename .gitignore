@@ -1,0 +1,7 @@
+DataStorage/bin/
+DataStorage/obj/
+Domain/bin/
+Domain/obj/
+WeatherMap/bin/
+WeatherMap/obj/
+.vs/
