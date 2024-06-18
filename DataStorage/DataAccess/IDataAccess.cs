@@ -6,6 +6,8 @@ namespace DataStorage.DataAccess
     {
         List<Weather> Weather { get; }
 
-        Weather AddWeather(string city, float temp);
+        Weather AddWeather(string city, double temp);
+
+        List<String> Cities { get; }
     }
 }

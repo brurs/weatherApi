@@ -3,6 +3,7 @@ using Domain.Handler;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using WeatherMap.TimedService;
 
 namespace WheaterMap
 {
@@ -20,6 +21,8 @@ namespace WheaterMap
 
             builder.Services.AddSingleton<IDataAccess, WeatherDataAccess>();
             builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(GetWeatherListHandler).Assembly));
+
+            builder.Services.AddHostedService<GetWeatherService>();
 
             var app = builder.Build();
 
