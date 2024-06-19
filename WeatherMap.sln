@@ -10,9 +10,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WeatherMap", "WeatherMap\We
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataStorage", "DataStorage\DataStorage.csproj", "{2B705FC9-C854-439C-A546-CE5DEF3EAFB1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{5991DF08-47CD-4C5A-BC8E-1BFA11F311B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{5991DF08-47CD-4C5A-BC8E-1BFA11F311B5}"
 	ProjectSection(ProjectDependencies) = postProject
 		{2B705FC9-C854-439C-A546-CE5DEF3EAFB1} = {2B705FC9-C854-439C-A546-CE5DEF3EAFB1}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherMap.Test", "TestProject\WeatherMap.Test.csproj", "{655DAC7C-E469-4772-8443-C0B0B23E7883}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4ACF7AB1-391F-4822-BA75-D7A2E8A28CCB} = {4ACF7AB1-391F-4822-BA75-D7A2E8A28CCB}
 	EndProjectSection
 EndProject
 Global
@@ -33,6 +38,10 @@ Global
 		{5991DF08-47CD-4C5A-BC8E-1BFA11F311B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5991DF08-47CD-4C5A-BC8E-1BFA11F311B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5991DF08-47CD-4C5A-BC8E-1BFA11F311B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{655DAC7C-E469-4772-8443-C0B0B23E7883}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{655DAC7C-E469-4772-8443-C0B0B23E7883}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{655DAC7C-E469-4772-8443-C0B0B23E7883}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{655DAC7C-E469-4772-8443-C0B0B23E7883}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

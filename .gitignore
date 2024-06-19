@@ -5,3 +5,6 @@ Domain/obj/
 WeatherMap/bin/
 WeatherMap/obj/
 .vs/
+TestProject/bin/Debug/net8.0/appsettings.Development.json
+TestProject/bin/
+TestProject/obj/
