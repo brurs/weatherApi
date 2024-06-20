@@ -9,6 +9,42 @@
 
 3 - 
 {
-	
+	"Pessoa": {
+		"Nome": "Bruno Roger Stupp",
+		"DataNascimento": "14/02/1996",
+		"UF": "SC",
+		"Cidade": "Blumenau",
+		"Bairro":"Itoupava Seca",
+		"Hobbies": [{
+			"Nome": "Arquearia",
+			"Descrição": "Arquearia tradicional no Pakua"
+		},
+		{
+			"Nome": "BDO",
+			"Descrição": "MMORPG Koerano horrivel"
+		}],
+		"Historico Escolar" : [
+		{
+			"Instituição": "EBM Anita Garibaldi",
+			"Status": "Completo",
+			"Nivel": "Basico"
+		},
+		{
+			"Instituição": "Cedup Herman Hering",
+			"Status": "Completo",
+			"Nivel": "Médio"
+		},
+		{
+			"Instituição": "Furb - Ciencia da Computação",
+			"Status": "Incompleto",
+			"Nivel": "Superior"
+		},
+		{
+			"Instituição": "Unicesumar - TADS",
+			"Status": "Cursando",
+			"Nivel": "Superior"
+		}
+		]
+	}
 }
 	
